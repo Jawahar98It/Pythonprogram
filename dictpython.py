@@ -11,7 +11,7 @@ balance['Doroti'] = 25000
 print(balance)
 print("key value of dictionary", balance.keys())
 print("Jaimie" in balance)
-print("Ramya" in balance)
+print("Eren" in balance)
 print("Values in dictionary", balance.values())
 print("items methods", balance.items())
 print(balance.pop("Megan"))
@@ -26,7 +26,7 @@ balance1 = {"Jaimie": 25000,
             "Cassie": 12000,
             "Megan": 25700,
             "Stuart": 23551,
-            "Kiba": 34900}
+            "King": 34900}
 balance2 = balance1.copy()
 print(balance2)
 balance2.update({'samuel': 50000})

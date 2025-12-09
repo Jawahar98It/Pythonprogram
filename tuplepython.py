@@ -14,7 +14,7 @@ print(mytuple[-3:-1])
 tuplis1[2][0] = 12.4
 print(tuplis1)
 del tuple1
-mytup2 = ('Ramya', 'Ramya', 'Thenmozhi',
-          'Lavanya', 'Sathiya', 'Sathya', 'Regina')
-print("count values:", mytup2.count('Ramya'))
-print("Index values:", mytup2.index('Thenmozhi'))
+mytup2 = ('Daniel', 'Sarah', 'Bosch',
+          'Lindon', 'Brevis', 'Archer', 'Smith')
+print("count values:", mytup2.count('Lindon'))
+print("Index values:", mytup2.index('Bosch'))

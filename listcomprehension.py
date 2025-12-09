@@ -9,7 +9,7 @@ num = [14, 22, 5, 34, 16]
 [print(j**2) for j in num]
 
 print("--------------------------------------------------------")
-list_1 = ["are", "you", "kakashi", "Hatake", "isn't", "it?"]
+list_1 = ["python", "is", "finest", "programming", "language", "or","not?"]
 print([(item.upper()) for item in list_1])
 
 print("--------------------------------------------------------------")
