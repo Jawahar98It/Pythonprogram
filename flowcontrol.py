@@ -1,21 +1,24 @@
-x = 20
-if x < 0:
-    print("Negative number")
-elif x % 2 == 0:
-    print("Positive even number")
+#conditional statements example
+x = -20
+if x<0:
+    print("Negative")
+elif x%2 == 0:
+    print("Positive Even")
 else:
-    print("Odd number")
+    print("Positive Odd")
 
-# using while loop
-i = 1
+#while loop
 n = 5
-sum = 0
+i = 1
+sum =0
 while i <= n:
-    sum = sum+i
-    i = i+1
-print(sum)
+    sum = sum + i
+    i = i + 1
+print("Sum of first", n, "natural numbers is:", sum)
 
-# using for loop
-str1 = 'python'
+#for loop
+str1 = "python"
 for i in str1:
+    print(i)
+for i in range(10):
     print(i)
